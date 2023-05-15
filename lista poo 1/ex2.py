@@ -1,5 +1,5 @@
 class disciplina:
-    def _init_(self):
+    def __init__(self):
       self.nome = ''
       self.n1 = 0
       self.n2 = 0

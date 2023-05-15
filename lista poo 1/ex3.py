@@ -1,5 +1,5 @@
 class viagem:
-  def _init_(self):
+  def __init__(self):
     self.dist = 0
     self.tempo = 0
   def velocidade(self):

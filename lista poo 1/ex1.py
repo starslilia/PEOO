@@ -1,5 +1,5 @@
 class circulo:
-    def _init_(self):
+    def __init__(self):
         self.raio = 0
 
     def calc_area(self):
