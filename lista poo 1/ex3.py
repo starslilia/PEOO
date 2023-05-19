@@ -24,6 +24,6 @@ class UI:
     horas, minutos = map(int, input().split())
     t = horas + minutos / 60
     x.set_tempo(t)
-    print(f'{x.velocidade():.1f}')
+    print(f'{x.velocidade():.1f} Km/h')
 
 UI.main()
