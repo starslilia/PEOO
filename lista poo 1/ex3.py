@@ -21,7 +21,8 @@ class UI:
     x = viagem()
     d = float(input())
     x.set_dist(d)
-    t = float(input())
+    horas, minutos = map(int, input().split())
+    t = horas + minutos / 60
     x.set_tempo(t)
     print(f'{x.velocidade():.1f}')
 
