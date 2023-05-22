@@ -20,4 +20,4 @@ class UI:
     print(f'{x.calc_area():.1f}')
     print(f'{x.calc_circ():.1f}')
 
-UI.main
+UI.main()
