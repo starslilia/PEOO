@@ -58,5 +58,15 @@ class UI:
       print(x.calc_raiz2())
     else:
       print('FIM')
-      
+    x.set_a(float(input())
+    x.set_b(float(input())
+    x.set_c(float(input())
+    print(x)
+    print(x.tem_raizreal())
+    if x.tem_raizreal() == True:
+      print(x.calc_raiz1())
+      print(x.calc_raiz2())
+    else:
+      print('FIM')
+
 UI.main()
